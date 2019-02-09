@@ -1,0 +1,285 @@
+h1, h2, h3, h4, h5, h6, div, p, span {
+  font-family: Helvetica, 'Helvetica Neue', arial, sans-serif !important;
+}
+
+a:hover {
+  color: #dc3832 !important;
+}
+
+.owl-carousel .owl-nav [class*=owl-]:hover {
+    background-color: #dc3832 !important;
+    color: #FFF !important;
+}
+
+#header.dark {
+  display: none !important;
+}
+
+.video-wrap {
+  -webkit-filter: grayscale(1) brightness(1.2) contrast(.8);
+  filter: grayscale(1) brightness(1.2) contrast(.8);
+}
+
+.container .vertical-middle {
+  top: 55% !important;
+  padding: 50px;
+}
+
+.hero-logo {
+  width: 100%;
+  max-width: 800px;
+}
+
+.page-section {
+  padding: 0;
+}
+
+.one-page-arrow {
+  bottom: 45px !important;
+}
+
+#large-nav-wrapper {
+  max-width: 1200px;
+  background: url('../images/lady.png') right bottom no-repeat;
+  background-size: 200px;
+  padding: 80px 0;
+}
+
+.large-nav-image {
+  width: 100px;
+  margin: 15px;
+}
+
+div.grey .section,
+div.page-section.grey {
+  background-color: #d7d7d7;
+}
+
+div.dark .section,
+div.page-section.dark,
+#footer.dark {
+  background-color: black;
+}
+
+/*Vision*/
+
+#section-vision h3 {
+  font-size: 18px;
+  color: #dc3832;
+}
+
+#section-vision div,
+#section-vision p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+/* General carousel */
+
+#section-general #p-carousel,
+#section-general #oc-portfolio-sidebar,
+#section-general .owl-stage,
+#section-general .owl-stage-outer,
+#section-general .owl-item,
+#section-general .owl-item .oc-item,
+#section-general .iportfolio {
+  height: 100%;
+}
+
+#section-general .oc-item div,
+#section-general .oc-item p,
+#section-general .oc-item ul {
+  line-height: 1.3;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#section-general .oc-item ul {
+  list-style: disc outside none;
+  margin-left: 1.1em;
+}
+
+#section-general .oc-item .container {
+  max-width: 400px;
+  margin: 0 auto 0 0;
+}
+
+.oc-item.dark {
+  background-color: #221f20;
+}
+
+.oc-item.dark span {
+  color: #dc3832;
+}
+
+.portfolio-desc {
+  margin-bottom: 20px;
+}
+
+.portfolio-desc .row div.col-sm {
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.slider-footer-logo {
+  position: absolute;
+  bottom: 0;
+}
+
+.slider-footer-logo img {
+  max-width: 90px;
+  width: 100%;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  margin: 0 4px;
+  background-color: #000;
+  opacity: 1;
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+  background-color: #dc3832;
+}
+/* Seating */
+.mapplic-container > .mapplic-levels {
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.mapplic-list-location > a:hover {
+  background-color: #f4f4f4 !important;
+}
+
+/* Neighborhood */
+
+#section-neighborhood .content-wrap {
+  padding-bottom: 0;
+}
+
+#section-neighborhood .portfolio-desc h4,
+#section-neighborhood .portfolio-desc h3 {
+  color: black;
+  letter-spacing: 1px;
+}
+
+#section-neighborhood .portfolio-desc span {
+  font-style: italic;
+  color: #888;
+  line-height: 2;
+}
+
+#section-neighborhood .portfolio-desc p {
+  line-height: 1.5em;
+  text-align: left;
+}
+
+/* Restaurants */
+
+#section-neighborhood .portfolio-desc h4,
+#section-neighborhood .portfolio-desc h3,
+#section-restaurants .oc-item h3 {
+  color: black;
+  font-size: 15px;
+}
+
+#section-neighborhood .portfolio-desc p,
+#section-restaurants .oc-item p {
+  line-height: 1.3;
+}
+
+#section-restaurants .oc-item span {
+  line-height: 2;
+  font-style: italic;
+}
+
+/* 1200 */
+
+@media screen and (min-width: 1200px) {
+  #section-general .oc-item div,
+  #section-general .oc-item p,
+  #section-general .oc-item ul {
+    line-height: 1.3;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  #section-general .oc-item div.col-sm p {
+    line-height: 1.3;
+    font-size: 18px !important;
+    font-weight: 600;
+  }
+  
+  #large-nav-wrapper div {
+    width: 130px;
+    margin: 0px 20px;
+  }
+}
+
+/* 992 */
+
+@media screen and (max-width: 991px) {
+  #large-nav-wrapper {
+    background-image: none !important;
+  }
+  
+  div.mapplic-sidebar {
+    height: 300px !important;
+    margin-top: 20px;
+  } 
+  
+  #section-general .oc-item div,
+  #section-general .oc-item p,
+  #section-general .oc-item ul {
+    font-size: 14px;
+  }
+  
+  #section-general .oc-item div.col-sm p {
+    line-height: 1.3;
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+  
+  #section-vision h3 {
+    font-size: 12px;
+    color: #dc3832;
+  }
+
+  #section-vision div,
+  #section-vision p {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2em;
+  }
+}
+
+/* 768 */
+
+@media screen and (max-width: 767px) {
+  #large-nav-wrapper {
+    display: flex !imporant;
+    justify-content: space-around !important;
+    padding: 20px 0;
+  }
+  #large-nav-wrapper div {
+    width: 40px !important;
+    margin: 0px;
+  }
+}
+
+/* 668 */
+
+@media screen and (max-width: 667px) {
+  
+  div.mapplic-container {
+/*    height: 400px !important;*/
+  }
+  
+  div.mapplic-sidebar {
+    height: 300px !important;
+  } 
+}
